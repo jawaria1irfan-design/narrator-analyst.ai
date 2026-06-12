@@ -39,7 +39,7 @@ This agent is built to integrate directly with the **Microsoft IQ intelligence l
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com
+git clone  https://github.com/jawaria1irfan-design/Narrator.Analyst.AI
 cd Narrator.Analyst.AI
 ```
 
