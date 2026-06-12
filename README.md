@@ -1,56 +1,46 @@
-# Narrator Analyst AI 🤖📊
+# Narrator Analyst AI 🎙️📊
 
-A Data Storyteller AI Agent that transforms raw CSV data into creative narratives and actionable insights using multi-step reasoning.
+A Data Storyteller AI Agent that transforms raw CSV data into elegant creative narratives and actionable corporate insights. Built for the Microsoft AI Agent League Hackathon 2026.
 
 ## 🎯 Project Overview
 
-Narrator Analyst AI is an intelligent reasoning agent built for the **Microsoft Agents League Hackathon** that:
+Narrator Analyst AI is an intelligent data narrative agent built for the **Microsoft Agents League Hackathon (Creative Track)** that:
 
-- **Analyzes CSV data** using advanced data processing
-- **Generates creative narratives** from raw data
-- **Provides multi-step reasoning** for complex insights
-- **Answers natural language questions** about your data
-- **Creates visualizations** to tell your data story
+- **Analyzes CSV data** instantly using advanced Pandas profiling.
+- **Generates executive data stories** highlighting skews, trends, and anomalies.
+- **Answers targeted natural language queries** via a conversational sandbox panel.
+- **Features a modern, red-free aesthetic** using an elegant dark slate and deep azure corporate theme.
 
 ## ✨ Features
 
-✅ **CSV File Upload** - Upload and analyze your own data files
-✅ **Data Analysis** - Automatic data exploration and profiling
-✅ **AI-Powered Narratives** - Get creative stories from your data
-✅ **Q&A Interface** - Ask questions and get instant insights
-✅ **Sample Datasets** - Test with pre-loaded example data
-✅ **User-Friendly UI** - Built with Streamlit for ease of use
+✅ **CSV File Upload** - In-memory drag-and-drop structural loading.
+✅ **Interactive Inspector** - Real-time metrics streaming and distribution grids.
+✅ **Analytical Storytelling Studio** - Converts distribution summaries into rich reports.
+✅ **Conversational Data Sandbox** - Context-aware interactive Q&A tab.
+✅ **User-Friendly UI** - Built with global configuration layouts for maximum readability.
+
+## 🧠 Microsoft IQ Layer Integration (Required)
+
+This agent is built to integrate directly with the **Microsoft IQ intelligence layer**:
+- **Fabric IQ Integration:** Narrator Analyst AI acts as an autonomous downstream consumption layer for structured enterprise data exported directly from Microsoft Fabric data lakes. 
+- By utilizing Fabric IQ schemas, the agent automatically identifies data dimensions, isolates missing cells, and converts raw cloud organization warehouse records into instant narrative abstract stories for executives.
 
 ## 🛠️ Tech Stack
 
-- **Python 3.8+** - Core programming language
-- **Pandas** - Data analysis and manipulation
-- **OpenAI API** - GPT for reasoning and narrative generation
-- **Streamlit** - Web interface
-- **Python-dotenv** - Environment variable management
+- **Python 3.8+** - Core programming environment.
+- **Pandas** - Fast, structured data manipulation.
+- **Groq Pipeline** - Ultra-low latency text inference processing engines.
+- **Streamlit** - Premium reactive dashboard viewport.
+- **Python-dotenv** - Workspace runtime environment management.
 
 ## 📁 Project Structure
-
-```
-narrator-analyst.ai/
-├── main.py                 # Streamlit app entry point
-├── agent.py               # Core agent logic
-├── config.py              # Configuration settings
-├── requirements.txt       # Python dependencies
-├── .env.example           # Environment template
-├── .gitignore            # Git ignore file
-├── README.md             # This file
-└── sample_data/          # Sample CSV files for testing
-    ├── sales_data.csv
-    └── company_metrics.csv
-```
 
 ## 🚀 Quick Start
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/jawaria1irfan-design/narrator-analyst.ai.git
-cd narrator-analyst.ai
+git clone https://github.com
+cd Narrator.Analyst.AI
 ```
 
 ### 2. Install Dependencies
@@ -59,90 +49,30 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set Up Environment Variables
-```bash
-# Create .env file
-cp .env.example .env
-
-# Edit .env and add your OpenAI API key
-# OPENAI_API_KEY=sk-proj-your-key-here
+Create a `.env` file in the root folder and add your operational credential key parameters (no quotes):
+```text
+GROQ_API_KEY=gsk_your_actual_free_key_here
 ```
 
 ### 4. Run the Application
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
-The app will open in your browser at `http://localhost:8501`
+The app will open in your browser automatically at `http://localhost:8501`
 
 ## 💡 How to Use
 
-1. **Upload a CSV File** - Click "Browse files" and select your CSV
-2. **View Data Analysis** - See automatic data profiling and statistics
-3. **Generate Narrative** - Click "Generate Story" to create AI-powered insights
-4. **Ask Questions** - Use the Q&A section to ask questions about your data
-5. **Get Visualizations** - View charts and graphs of key insights
-
-## 📊 Example Workflow
-
-```
-User Input: Upload sales_data.csv
-    ↓
-Agent Analysis: Reads and profiles the data
-    ↓
-Reasoning: Identifies patterns, trends, anomalies
-    ↓
-Narrative Generation: Creates story about the data
-    ↓
-User Output: Creative insights + visualizations
-```
-
-## 🔧 Configuration
-
-Edit `config.py` to customize:
-- OpenAI model selection
-- Narrative style preferences
-- Analysis parameters
-- UI settings
-
-## 📈 Sample Data
-
-The project includes sample CSV files:
-- **sales_data.csv** - Monthly sales data across regions
-- **company_metrics.csv** - Company performance metrics
-
-Use these to test the agent before using your own data.
-
-## 🎓 Learning Path
-
-This project teaches you:
-1. ✅ AI/LLM API integration
-2. ✅ Data analysis with Pandas
-3. ✅ Multi-step reasoning with AI
-4. ✅ Web app development with Streamlit
-5. ✅ Environment management and best practices
-
-## 🐛 Troubleshooting
-
-**Issue**: "API key not found"
-- **Solution**: Make sure your `.env` file has `OPENAI_API_KEY=your-key`
-
-**Issue**: "Module not found"
-- **Solution**: Run `pip install -r requirements.txt`
-
-**Issue**: "Port already in use"
-- **Solution**: Run `streamlit run main.py --server.port 8502`
-
-## 📚 Documentation
-
-- [OpenAI API Docs](https://platform.openai.com/docs)
-- [Streamlit Docs](https://docs.streamlit.io)
-- [Pandas Docs](https://pandas.pydata.org/docs)
+1. **Upload a CSV File** - Drop your CSV data matrix into the file uploader tray.
+2. **View Interactive Metrics** - See total rows, columns, and missing null counts calculate live.
+3. **Generate Narrative** - Open the *Narrative Story Generation* tab and click to compile a text story.
+4. **Ask Questions** - Use the *Interactive Q&A Panel* to query specific insights about your data metrics.
 
 ## 🏆 Hackathon Track
 
-**Track**: Reasoning Agents
-**Tool**: GitHub Copilot
-**Challenge**: Create intelligent agents that solve complex problems through multi-step reasoning
+**Track**: Creative Apps  
+**Tool**: AI-Assisted Development / GitHub Copilot  
+**Challenge**: Build innovative creative applications using AI-assisted development paradigms.
 
 ## 📄 License
 
@@ -151,12 +81,8 @@ MIT License - Feel free to use this project for learning and development!
 ## 👩‍💻 Author
 
 **Jawaria Irfan**
-- GitHub: [@jawaria1irfan-design](https://github.com/jawaria1irfan-design)
-- Project: Microsoft Agents League Hackathon 2026
-
-## ✨ Contributing
-
-Feel free to fork, modify, and improve this project!
+- GitHub: [@jawaria1irfan-design](https://github.com)
+- Project: Microsoft AI Agent League Hackathon 2026
 
 ---
 
