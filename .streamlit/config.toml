@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "rgb(106, 1, 86)"       # Your Deep Velvet Wine
+backgroundColor = "#d0c8d1"           # Your Custom Light Canvas
+textColor = "#090808"                 # Keeps main viewport app fonts black
+font = "sans serif"                   # Clean Modern Typography
+
+[theme.sidebar]
+backgroundColor = "#2a1d30"          # Your Stunning deep sidebar color
+textColor = "#ffffff"                 # Forces sidebar text to white
+primaryColor = "#ffffff"              # Forces sidebar active elements to white
+
+[theme.dropdown]
+textColor = "#000000"                 # FORCES ALL DROPDOWN AND SELECTBOX OPTIONS TO BLACK
+backgroundColor = "#ffffff"           # Ensures dropdown background stays crisp white
