@@ -33,6 +33,9 @@ This agent is built to integrate directly with the **Microsoft IQ intelligence l
 - **Streamlit** - Premium reactive dashboard viewport.
 - **Python-dotenv** - Workspace runtime environment management.
 
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/864cb608-201c-4e7c-8b0a-aaf5eb6d7897" />
+
+
 ## 📁 Project Structure
 
 ## 🚀 Quick Start
