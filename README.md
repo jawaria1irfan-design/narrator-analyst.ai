@@ -85,5 +85,7 @@ MIT License - Feel free to use this project for learning and development!
 - Project: Microsoft AI Agent League Hackathon 2026
 
 ---
+## 🌐 Live Demo
+👉 [Try it here](https://narrator-analystai-3fk44fvdgszv69f8x7256o.streamlit.app)
 
 **Happy Data Storytelling!** 🎉📊
