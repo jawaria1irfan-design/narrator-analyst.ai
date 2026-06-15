@@ -19,12 +19,6 @@ Narrator Analyst AI is an intelligent data narrative agent built for the **Micro
 ✅ **Conversational Data Sandbox** - Context-aware interactive Q&A tab.
 ✅ **User-Friendly UI** - Built with global configuration layouts for maximum readability.
 
-## 🧠 Microsoft IQ Layer Integration (Required)
-
-This agent is built to integrate directly with the **Microsoft IQ intelligence layer**:
-- **Fabric IQ Integration:** Narrator Analyst AI acts as an autonomous downstream consumption layer for structured enterprise data exported directly from Microsoft Fabric data lakes. 
-- By utilizing Fabric IQ schemas, the agent automatically identifies data dimensions, isolates missing cells, and converts raw cloud organization warehouse records into instant narrative abstract stories for executives.
-
 ## 🛠️ Tech Stack
 
 - **Python 3.8+** - Core programming environment.
